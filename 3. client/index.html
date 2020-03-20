@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <style>
+        html{
+            margin: 10px;
+        }
+        .image-url {
+            width: 800px;
+        }
+        #container
+        {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Image Url : <input class="image-url" type="url" id="imageUrl"
+            value="https://upload.wikimedia.org/wikipedia/commons/4/41/Leo_Messi_v_Almeria_020314_%28cropped%29.jpg">
+        <input type="button" value="Score Image" onclick="scoreImage()">
+    </div>
+
+    <div id="container"></div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
